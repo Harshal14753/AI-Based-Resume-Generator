@@ -7,6 +7,46 @@ An intelligent resume generation application that uses OpenAI's GPT models to cr
 - **Frontend**: [https://ai-resume-generator-frontend-omega.vercel.app](https://ai-resume-generator-frontend-omega.vercel.app)
 - **Backend API**: [https://ai-resume-generator-backend-lr6d.onrender.com](https://ai-resume-generator-backend-lr6d.onrender.com)
 
+## 📋 Project Demo
+
+### 📹 Video Demonstration
+Watch the complete walkthrough of E-Notes application:
+
+
+<div align="center">
+  <h3>
+    <a href="https://drive.google.com/file/d/1ZAPUMzwsF9O_rPivvqOeEx4VcOHCRZVk/view?usp=drive_link">
+      🎥 Watch Full Demo Video →
+    </a>
+  </h3>
+  <p><em>Complete walkthrough of all features and functionalities</em></p>
+</div>
+
+*Video embedded from Google Drive - click play to watch*
+
+### 📸 Application Screenshots
+
+#### 🏠 Landing Page
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/472a39fd-a68b-47ee-a58e-53aa0b63e85c" />
+*The home page welcomes users with a clean, modern interface showcasing the application's key features, hero section with call-to-action, and user testimonials.*
+
+#### 🤖 AI Prompt Input
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1ec8bf2e-3b32-4d4d-9896-a4f7dda366be" />
+*Users can describe their experience and skills in natural language, and the AI will generate a professional resume automatically.*
+
+#### 📝 Resume Form
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a6e1c2a8-ed44-4cc3-8f46-55d0b9c4087b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b8d4f2c3-1955-48d1-a5ef-4bc9e1438e08" />
+*For more control, users can manually fill in their information through a comprehensive form with sections for personal details, education, experience, and skills.*
+
+#### 📄 Generated Resume
+<img width="1916" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ef820cf0-a837-4163-af38-7b04f9e12c8c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e2115526-0d64-4c31-ae13-0c0b5182fe88" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2fea8394-31e3-4395-b6fc-e4ccdbf6d560" />
+*The final professional, ATS-friendly resume with clean formatting, ready to download as PDF or image.*
+
+---
+
 ## ✨ Features
 
 - 🎨 **AI-Powered Generation**: Leverages OpenAI GPT models to create tailored resumes
@@ -16,6 +56,132 @@ An intelligent resume generation application that uses OpenAI's GPT models to cr
 - 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
 - ⚡ **Real-time Preview**: See your resume as it's being generated
 - 🔒 **Secure**: Environment-based API key management
+
+## 🎥 Demo Video
+
+Watch a complete walkthrough of the AI Resume Generator in action:
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+> **Note**: You can also find the demo video in the `screenshot` folder as `Project Video.mp4`. 
+> 
+> **To add the video to GitHub**: Upload the video to your GitHub repository's releases or use GitHub's drag-and-drop feature in the README editor to automatically host and embed the video.
+>
+> **Alternative**: If you want to host the video elsewhere, you can replace the link above with a YouTube, Vimeo, or Loom link.
+
+## 📸 Screenshots & Pages
+
+### Landing Page
+The home page welcomes users with a clean, modern interface showcasing the application's key features and benefits.
+
+**Features displayed:**
+- Hero section with call-to-action button
+- Feature cards highlighting AI-powered generation, multiple templates, and job-specific optimization
+- User testimonials section
+- Call-to-action footer
+
+![Landing Page Screenshot](screenshot/1-Home.png)
+
+---
+
+### Generate Resume Page
+This is the core functionality page where users can create their resume in two ways:
+
+#### 1. AI Generation Mode (Prompt Input)
+Users can describe their background in natural language, and the AI will automatically generate a structured resume.
+
+**Key features:**
+- Natural language text area for user description
+- AI-powered generation button
+- Clear/reset functionality
+- Real-time loading indicators
+
+![Generate Resume - AI Mode Screenshot](screenshot/2-Prompt.png)
+
+**Example prompt:**
+```
+I am a software engineer with 5 years of experience in full-stack development. 
+I have worked with React, Node.js, Spring Boot, and AWS. I graduated from MIT 
+with a degree in Computer Science. I have led teams of 5 developers and delivered 
+multiple successful projects.
+```
+
+#### 2. Form Edit Mode
+After AI generation, users can review and manually edit all sections of their resume through an intuitive form interface.
+
+**Editable sections include:**
+- Personal Information (Name, Email, Phone, Location, LinkedIn, GitHub)
+- Professional Summary
+- Work Experience (Company, Position, Duration, Responsibilities)
+- Education (Institution, Degree, Field, Year, GPA)
+- Skills (Technical and soft skills)
+- Projects (Title, Description, Technologies, Links)
+- Certifications (Name, Issuer, Date)
+- Languages (Language and proficiency level)
+- Interests
+
+**Form features:**
+- Dynamic field arrays (add/remove multiple entries)
+- Organized sections with clear labels
+- Input validation
+- Responsive layout
+
+![Generate Resume - Form Mode Screenshot 1](screenshot/3-ResumeForm.png)
+
+![Generate Resume - Form Mode Screenshot 2](screenshot/4-ResumeForm.png)
+
+![Generate Resume - Form Mode Screenshot 3](screenshot/5-ResumeForm.png)
+
+![Generate Resume - Form Mode Screenshot 4](screenshot/6-ResumeForm.png)
+
+![Generate Resume - Form Mode Screenshot 5](screenshot/7-ResumeForm.png)
+
+![Generate Resume - Form Mode Screenshot 6](screenshot/8-ResumeForm.png)
+
+---
+
+### Resume Preview & Export
+Once the resume data is finalized, users can preview their professionally formatted resume and export it.
+
+**Features:**
+- Clean, ATS-friendly resume template
+- Real-time preview of all sections
+- **Export Options:**
+  - Download as PDF (using React-to-Print)
+  - Download as Image (using HTML-to-Image)
+  - Print directly
+- Responsive design for all screen sizes
+
+**Resume sections displayed:**
+- Header with contact information
+- Professional summary
+- Work experience with timeline
+- Education background
+- Technical skills grid
+- Projects showcase
+- Certifications
+- Languages and interests
+
+![Resume Preview Screenshot 1](screenshot/9-Resume.png)
+
+![Resume Preview Screenshot 2](screenshot/10-Resume.png)
+
+![Resume Preview Screenshot 3](screenshot/11-Resume.png)
+
+---
+
+### Navigation & Other Pages
+
+#### About Page
+Information about the application, its purpose, and the team behind it.
+
+#### Services Page
+Details about the services offered by the platform.
+
+#### Contact Page
+Contact form and information for user inquiries and support.
+
+---
 
 ## 🏗️ Architecture
 
@@ -238,14 +404,179 @@ npm run lint
 ./mvnw test
 ```
 
-## 📝 How It Works
+## 📝 How It Works - Step by Step Guide
 
-1. **User Input**: User provides a natural language description of their background, skills, and experience
-2. **API Request**: Frontend sends the description to the backend via REST API
-3. **AI Processing**: Backend uses OpenAI's GPT model with a custom prompt template to generate structured resume data
-4. **Response Parsing**: Backend parses the AI response into JSON format with sections like personal info, experience, education, etc.
-5. **Display**: Frontend renders the structured data in a professional resume template
-6. **Export**: User can download the resume as PDF or image
+### Step 1: Landing Page
+When you first visit the application, you'll see a modern, welcoming interface that introduces you to the AI-powered resume generation features.
+
+![Step 1 - Landing Page](screenshot/1-Home.png)
+
+The landing page highlights:
+- **Hero Section**: Clear call-to-action to get started
+- **Key Features**: AI-powered generation, professional templates, and ATS optimization
+- **User Benefits**: Quick resume creation with AI assistance
+
+---
+
+### Step 2: Enter Your Information (AI Prompt)
+Click on "Generate Resume" to access the AI-powered input interface. Here, you simply describe your professional background in natural language.
+
+![Step 2 - AI Prompt Input](screenshot/2-Prompt.png)
+
+**What to include in your description:**
+- Your current role and years of experience
+- Technical skills and technologies you've worked with
+- Educational background
+- Notable projects or achievements
+- Certifications or additional qualifications
+- Career objectives or goals
+
+The AI will understand your natural language description and automatically structure it into a professional resume format.
+
+---
+
+### Step 3: Review & Edit - Personal Information
+After the AI generates your resume, you can review and edit every section. Start with your personal information:
+
+![Step 3 - Personal Information Form](screenshot/3-ResumeForm.png)
+
+**Editable fields:**
+- Full Name
+- Email Address
+- Phone Number
+- Location (City, State)
+- LinkedIn Profile
+- GitHub Profile
+- Portfolio Website
+
+---
+
+### Step 4: Professional Summary & Experience
+Refine your professional summary and work experience details:
+
+![Step 4 - Summary and Experience](screenshot/4-ResumeForm.png)
+
+**Work Experience Section:**
+- Add multiple positions
+- Company name and location
+- Job title and employment dates
+- Key responsibilities and achievements
+- Use action verbs for impact
+
+---
+
+### Step 5: Education & Skills
+Update your educational background and skill sets:
+
+![Step 5 - Education and Skills](screenshot/5-ResumeForm.png)
+
+**Education Details:**
+- Institution name
+- Degree type (Bachelor's, Master's, etc.)
+- Field of study
+- Graduation year
+- GPA (optional)
+
+**Skills Section:**
+- Technical skills (programming languages, frameworks, tools)
+- Soft skills (leadership, communication, problem-solving)
+- Domain expertise
+
+---
+
+### Step 6: Projects & Certifications
+Showcase your projects and professional certifications:
+
+![Step 6 - Projects and Certifications](screenshot/6-ResumeForm.png)
+
+**Projects:**
+- Project title and description
+- Technologies used
+- Project links (GitHub, live demo)
+- Your role and contributions
+
+**Certifications:**
+- Certification name
+- Issuing organization
+- Date obtained
+- Validity period
+
+---
+
+### Step 7: Languages & Additional Information
+Add language proficiencies and other relevant details:
+
+![Step 7 - Languages and Interests](screenshot/7-ResumeForm.png)
+
+**Languages:**
+- Language name
+- Proficiency level (Native, Fluent, Intermediate, Basic)
+
+**Additional Sections:**
+- Interests and hobbies
+- Volunteer work
+- Publications
+- Awards and honors
+
+---
+
+### Step 8: Final Review
+Complete the final review of all sections before generating the formatted resume:
+
+![Step 8 - Final Form Review](screenshot/8-ResumeForm.png)
+
+Make sure all information is:
+- ✅ Accurate and up-to-date
+- ✅ Free of typos and grammatical errors
+- ✅ Formatted consistently
+- ✅ Relevant to your target position
+
+---
+
+### Step 9: Resume Preview - Header & Summary
+View your professionally formatted resume with a clean, ATS-friendly layout:
+
+![Step 9 - Resume Preview Header](screenshot/9-Resume.png)
+
+The preview shows:
+- Professional header with contact information
+- Well-formatted professional summary
+- Clean typography and spacing
+- ATS-optimized layout
+
+---
+
+### Step 10: Resume Preview - Experience & Education
+Review your work experience and educational background in the formatted resume:
+
+![Step 10 - Resume Experience Section](screenshot/10-Resume.png)
+
+**Features:**
+- Chronological work history
+- Clear job titles and company names
+- Bullet-pointed achievements
+- Education section with relevant details
+- Consistent formatting throughout
+
+---
+
+### Step 11: Export Your Resume
+Finally, export your resume in your preferred format:
+
+![Step 11 - Export Options](screenshot/11-Resume.png)
+
+**Export Options:**
+- 📄 **Download as PDF**: Perfect for email submissions and online applications
+- 🖼️ **Download as Image**: Great for quick previews and social media
+- 🖨️ **Print**: Direct printing with optimized layout
+
+**Technical Process Behind the Scenes:**
+1. **User Input**: Natural language description provided
+2. **API Request**: Frontend sends data to Spring Boot backend via REST API
+3. **AI Processing**: Backend uses OpenAI GPT model with custom prompt template
+4. **Response Parsing**: AI response converted to structured JSON with all resume sections
+5. **Display**: React components render the professional resume template
+6. **Export**: HTML-to-Image and React-to-Print libraries handle the export functionality
 
 ## 🐛 Troubleshooting
 
