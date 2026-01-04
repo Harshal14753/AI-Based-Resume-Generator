@@ -1,13 +1,13 @@
-# ChatVerse 💬
+# 🤖 AI-Based Resume Generator
 
-A full-stack real-time chat application built with Spring Boot and React, featuring WebSocket-based messaging, user authentication, and modern UI/UX design.
+An intelligent resume generation application that uses OpenAI's GPT models to create professional, ATS-friendly resumes from user descriptions. Built with React and Spring Boot.
 
 ---
 
-## 🔗 Live Deployment
+## 🌐 Live Demo
 
-- **Frontend**: [https://chat-verse-frontend-seven.vercel.app](https://chat-verse-frontend-seven.vercel.app)
-- **Backend API**: [https://chat-verse-backend-zjzc.onrender.com](https://chat-verse-backend-zjzc.onrender.com)
+- **Frontend**: [https://ai-resume-generator-frontend-omega.vercel.app](https://ai-resume-generator-frontend-omega.vercel.app)
+- **Backend API**: [https://ai-resume-generator-backend-lr6d.onrender.com](https://ai-resume-generator-backend-lr6d.onrender.com)
 
 ---
 
